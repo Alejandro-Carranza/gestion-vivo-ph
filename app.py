@@ -108,7 +108,7 @@ with col_logo:
 
 with col_title:
     st.markdown("<h1 class='title-glow' style='font-size: 2.2rem;'>INFORME DE SEGUIMIENTO - ENTREGA ZONAS COMUNES</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='color: #FFD700 !important;'>Conjunto Residencial Vivo PH <span style='color:white;'>vs.</span> Constructora Taller 7 S.A.S.</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color: #FFD700 !important;'>Edificio Vivo PH <span style='color:white;'>vs.</span> Constructora Taller 7 S.A.S.</h3>", unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -151,16 +151,16 @@ elif menu == "🚀 Cronología Judicial":
     if año == "2023":
         st.markdown("""<div class="legal-card"><h3 class="highlight-yellow">HITOS DEL AÑO 2023</h3><ul>
         <li><b>Marzo 31:</b> Taller Siete entrega bienes esenciales y documentación técnica (planos, garantías, licencias).</li>
-        <li><b>Marzo/Abril:</b> Decisión de contratar a <b>Terrakota Construcciones</b> para consultoría de recibo.</li>
-        <li><b>Diciembre:</b> Asamblea exige destinar recursos de cuota extraordinaria al contrato con Terrakota.</li>
+        <li><b>Marzo/Abril:</b> Decisión de contratar a <b>Terrakota Construcciones</b> para interventoría de recibo.</li>
+        <li><b>Diciembre:</b> Asamblea Extraordinaria exige destinar recursos de cuota extraordinaria al contrato con Terrakota.</li>
         </ul></div>""", unsafe_allow_html=True)
     
     elif año == "2024":
         st.markdown("""<div class="legal-card"><h3 class="highlight-yellow">HITOS DEL AÑO 2024</h3><ul>
         <li><b>Marzo:</b> Entrega informe de interventoría a la copropiedad y a la constructora.</li>
-        <li><b>Mayo 18:</b> Asamblea socializa informe y solicita iniciar gestiones para obras de reparación.</li>
+        <li><b>Mayo 18:</b> Asamblea extraordinaria socializa informe de interventoría y solicita iniciar gestiones para obras de reparación.</li>
         <li><b>Mayo 31:</b> Mesa de trabajo. Compromiso de respuesta de Taller 7 para el 7 de junio.</li>
-        <li><b>Julio 3 y 30:</b> Radicación de Derechos de Petición ante la falta de cumplimiento.</li>
+        <li><b>Julio 3 y 30:</b> Radicación de Derechos de Petición ante la falta de cumplimiento de compromisos por parte de Taller 7.</li>
         <li><b>Agosto 14:</b> Queja formal ante la SDHT por deficiencias funcionales en zonas comunes.</li>
         <li><b>Octubre 3:</b> Inspección técnica realizada por la SDHT.</li>
         <li><b>Octubre 10:</b> Tutela contra Taller 7. El 15 de octubre responden prometiendo obras en febrero 2025.</li>
@@ -169,13 +169,15 @@ elif menu == "🚀 Cronología Judicial":
     elif año == "2025":
         st.markdown("""<div class="legal-card"><h3 class="highlight-yellow">HITOS DEL AÑO 2025</h3><ul>
         <li><b>Marzo 17:</b> Solicitud formal a Taller 7 para iniciar obras según compromiso.</li>
-        <li><b>Abril 14:</b> Taller 7 propone cubrir parqueadero P1 con copago del 40% ($10.5M). <b>Rechazado en Julio por la administración.</b></li>
+        <li><b>Abril 14:</b> Taller 7 propone cubrir parqueadero P1 con copago del 40% ($10.5M).</li>
         <li><b>Junio:</b> Nueva Tutela ante Juzgado 99 por inasistencia a mesas de trabajo.</li>
-        <li><b>Julio 25:</b> Informe del Ing. Jaime Cortés sobre hallazgos de infiltración.</li>
+        <li><b>Julio 3:</b> Rechazo de Propuesta: La Administración y el Consejo decidieron no aceptar la cobertura del parqueadero en el piso 1.</li>            
+        <li><b>Julio 25:</b> Informe de patologia del Ing. Jaime Cortés; hallazgos de infiltración.</li>
         <li><b>Agosto 27:</b> SDHT abre <b>investigación administrativa (Auto 1486)</b> calificando hallazgos como AFECTACIÓN GRAVE y GRAVÍSIMA.</li>
         <li><b>Septiembre 29:</b> Taller 7 remite pólizas "Todo Riesgo Contratista" <b>VENCIDAS</b>.</li>
         <li><b>Octubre 22:</b> Solicitud de conciliación en la Procuraduría. Declarada <b>FALLIDA</b> en noviembre por falta de ánimo conciliatorio.</li>
         <li><b>Noviembre 19:</b> Nuevo Derecho de Petición por Póliza de Estabilidad.</li>
+        <li><b>Noviembre 27:</b> sesión de conciliación en la Procuraduría entre la copropiedad y Taller 7. JAIME BRAVO – R.L, , comunica que no tienen ánimo conciliatorio dado que cursan proceso de liquidación ante la Superintendencia de Sociedades. Conclusión: la audiencia se declara FALLIDA y AGOTADA la etapa conciliatoria..</li>
         </ul></div>""", unsafe_allow_html=True)
 
     elif año == "2026":
@@ -183,6 +185,7 @@ elif menu == "🚀 Cronología Judicial":
         <li><b>Enero 13:</b> Juzgado admite tutela en curso.</li>
         <li><b>Enero 28:</b> Taller 7 alega que la Garantía Legal no constituye un documento tangible.</li>
         <li><b>Febrero 10:</b> Administración prepara impugnación para exigir respuesta efectiva y de fondo.</li>
+        <li><b>Febrero 20:</b> Notificación de la <b>Resolución 33 (SDHT)</b>: Sanción de <b>$9.930.652</b> por daños graves en parqueadero 20 (Inmueble 406).</li>
         </ul></div>""", unsafe_allow_html=True)
 
 elif menu == "💡 Conclusiones y Recomendaciones":
@@ -194,7 +197,7 @@ elif menu == "💡 Conclusiones y Recomendaciones":
         <li>R.L. Jairo Jaramillo: Único bien en La Mesa (Cundinamarca).</li>
         <li>Segunda R.L.: Único apartamento en Bogotá.</li>
     </ul></div>
-    <div class="legal-card"><h3 class="highlight-yellow">2. Reparación Interna y Términos de Referencia</h3>
+    <div class="legal-card"><h3 class="highlight-yellow">2. Reparación zonas comunes</h3>
     <p>Se propone reparar las zonas comunes mediante un proceso de licitación privada:</p>
     <ul>
         <li>Diseño de términos de referencia para ingenieros y arquitectos.</li>
